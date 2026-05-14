@@ -1,0 +1,36 @@
+name: VitalRoad CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  syntax-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Check server syntax
+        run: node --check server.js
+
+      - name: Check frontend syntax
+        run: node --check public/app.js
+
+      - name: Check shared API code
+        run: node --check lib/entries-store.js
+
+      - name: Check Vercel API functions
+        run: |
+          node --check api/health.js
+          node --check api/stats.js
+          node --check api/entries/index.js
+          node --check "api/entries/[id].js"

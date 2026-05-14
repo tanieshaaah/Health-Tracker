@@ -1,0 +1,28 @@
+{
+  "name": "vital-road-health-tracker",
+  "version": "1.0.0",
+  "description": "A build-free VitalRoad mini project for tracking steps, sleep, water intake, mood, notes, and health insights.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node --check server.js && node --check public/app.js && node --check public/auth.js && node --check lib/entries-store.js && node --check lib/users-store.js && node --check lib/auth.js && node --check api/health.js && node --check api/stats.js && node --check api/entries/index.js && node --check api/entries/[id].js && node --check api/auth.js && node --check api/auth/register.js && node --check api/auth/login.js"
+  },
+  "dependencies": {
+    "mongodb": "^6.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3"
+  },
+  "keywords": [
+    "html5",
+    "css3",
+    "javascript",
+    "es6",
+    "react",
+    "rest-api",
+    "client-server",
+    "sdlc",
+    "vcs"
+  ],
+  "license": "MIT"
+}

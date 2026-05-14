@@ -1,0 +1,62 @@
+[
+  {
+    "id": "seed-2026-05-10",
+    "date": "2026-05-10",
+    "steps": 6400,
+    "sleep": 7.2,
+    "water": 7,
+    "mood": "Focused",
+    "notes": "Evening walk after class helped reset the day.",
+    "createdAt": "2026-05-10T18:30:00.000Z"
+  },
+  {
+    "id": "seed-2026-05-11",
+    "date": "2026-05-11",
+    "steps": 9200,
+    "sleep": 6.8,
+    "water": 8,
+    "mood": "Energetic",
+    "notes": "Hit the step goal and kept meals lighter.",
+    "createdAt": "2026-05-11T18:30:00.000Z"
+  },
+  {
+    "id": "seed-2026-05-12",
+    "date": "2026-05-12",
+    "steps": 5100,
+    "sleep": 8.1,
+    "water": 6,
+    "mood": "Calm",
+    "notes": "Recovery day with better sleep.",
+    "createdAt": "2026-05-12T18:30:00.000Z"
+  },
+  {
+    "id": "fcfd012b-64cb-4add-ba68-94827fb688a5",
+    "date": "2026-05-14",
+    "steps": 7500,
+    "sleep": 7.5,
+    "water": 8,
+    "mood": "Focused",
+    "notes": "",
+    "createdAt": "2026-05-14T13:17:09.585Z"
+  },
+  {
+    "id": "9b25d7d0-0f62-480c-a440-2f9584fb209c",
+    "date": "2026-05-15",
+    "steps": 5999,
+    "sleep": 4,
+    "water": 3,
+    "mood": "Stressed",
+    "notes": "i am feeling stressed because of ton of assignments.",
+    "createdAt": "2026-05-14T13:31:27.855Z"
+  },
+  {
+    "id": "a463dfab-cdf8-4927-9dcc-89bf93dc23ee",
+    "date": "2026-05-14",
+    "steps": 10000,
+    "sleep": 7.5,
+    "water": 8,
+    "mood": "Energetic",
+    "notes": "good",
+    "createdAt": "2026-05-14T13:49:27.519Z"
+  }
+]

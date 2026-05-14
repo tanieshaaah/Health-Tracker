@@ -1,0 +1,17 @@
+{
+  "name": "VitalRoad Health Tracker",
+  "short_name": "VitalRoad",
+  "description": "Track steps, sleep, water intake, mood, and notes with simple health insights.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f2ea",
+  "theme_color": "#007f78",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

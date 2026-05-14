@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="VitalRoad icon">
+  <rect width="128" height="128" rx="24" fill="#007f78"/>
+  <path d="M28 74c15-31 38-31 53 0 8 16 18 18 27 0" fill="none" stroke="#f6f2ea" stroke-width="10" stroke-linecap="round"/>
+  <path d="M34 48h18l10 34 14-48 10 34h14" fill="none" stroke="#9fe0cb" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
