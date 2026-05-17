@@ -25,7 +25,7 @@ const sendJson = (res, status, payload) => {
 };
 
 const openBrowser = (url) => {
-  if (process.env.NO_OPEN === "true" || process.env.VERCEL || process.env.CI) {
+  if (process.env.NO_OPEN === "true" || process.env.VERCEL || process.env.CI || process.env.RENDER || process.env.NODE_ENV === "production") {
     return;
   }
 
@@ -36,6 +36,7 @@ const openBrowser = (url) => {
   };
   const [command, args] = commands[process.platform] || commands.win32;
   const child = spawn(command, args, { detached: true, stdio: "ignore" });
+  child.once("error", () => { }); // Silently ignore if browser open fails
   child.unref();
 };
 
