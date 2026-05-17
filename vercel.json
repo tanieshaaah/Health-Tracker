@@ -2,11 +2,23 @@
   "rewrites": [
     {
       "source": "/",
+      "destination": "/public/landing.html"
+    },
+    {
+      "source": "/app",
       "destination": "/public/index.html"
+    },
+    {
+      "source": "/landing.css",
+      "destination": "/public/landing.css"
     },
     {
       "source": "/app.js",
       "destination": "/public/app.js"
+    },
+    {
+      "source": "/auth.js",
+      "destination": "/public/auth.js"
     },
     {
       "source": "/styles.css",

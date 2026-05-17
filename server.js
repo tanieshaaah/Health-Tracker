@@ -142,7 +142,10 @@ const handleApi = async (req, res, url) => {
 };
 
 const serveStatic = async (req, res, url) => {
-  const requestedPath = url.pathname === "/" ? "/index.html" : url.pathname;
+  const requestedPath =
+    url.pathname === "/" ? "/landing.html" :
+    url.pathname === "/app" ? "/index.html" :
+    url.pathname;
   const safePath = path.normalize(decodeURIComponent(requestedPath)).replace(/^(\.\.[/\\])+/, "");
   const filePath = path.join(__dirname, "public", safePath);
 
