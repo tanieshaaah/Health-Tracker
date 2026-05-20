@@ -16,7 +16,7 @@ $env:JWT_SECRET="change-this-to-a-long-random-secret"
 node server.js
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+Open [https://health-tracker-1-2v8r.onrender.com/]
 
 The frontend still has no build step. MongoDB requires the `mongodb` Node package, which is listed in `package.json`.
 
